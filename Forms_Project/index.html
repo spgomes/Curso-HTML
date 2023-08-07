@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ficha de Cadastro</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h3>Ficha de Cadastro</h3>
+      </div>
+      <div class="form-container">
+        <div class="form-header">
+          <p>Formulário</p>
+        </div>
+        <div class="form-body">
+          <h1 class="form-title">Dados Pessoais</h1>
+          <form>
+            <div class="box-input">
+              <label for="title"
+                >Primeiro Nome: <span class="required-field">*</span></label
+              >
+              <input
+                type="text"
+                name="title"
+                id="title"
+                class="block"
+                placeholder="Primeiro nome"
+                minlength="1"
+                maxlength="30"
+                required
+              />
+            </div>
+            <div class="box-input">
+              <label for="LastName"
+                >Sobrenome: <span class="required-field">*</span></label
+              >
+              <input
+              type="text"
+              name="LastName"
+              id="LastName"
+              class="block"
+              placeholder="Sobrenome"
+              minlength="1"
+              maxlength="30"
+              required
+              />
+            </div>
+
+            <div class="box-input">
+              <label for="birthdate"
+                >Data de Nascimento <span class="required-field">*</span></label
+              >
+              <input
+                type="date"
+                name="birthdate"
+                id="birthdate"
+                class="block"
+                required
+              />
+            </div>
+            <div class="sex">
+              <p>Orientação Sexual:</p>
+              <ul class="sex-list">
+                <li>
+                  <input
+                    type="checkbox"
+                    id="Heterossexual"
+                    name="sex[]"
+                    value="Heterossexual"
+                  />
+                  <label for="Heterossexual">Heterossexual</label>
+                </li>
+                <li>
+                  <input
+                    type="checkbox"
+                    id="Homossexual"
+                    name="sex[]"
+                    value="Homossexual"
+                  />
+                  <label for="Homossexual">Homossexual</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="bi" name="sex[]" value="bi" />
+                  <label for="bi">Bissexual</label>
+                </li>
+                <li>
+                  <input
+                    type="checkbox"
+                    id="Assexual"
+                    name="sex[]"
+                    value="Assexual"
+                  />
+                  <label for="Assexual">Assexual</label>
+                </li>
+            
+              </ul>
+            </div>
+
+            <div class="box-input">
+              <label for="email"
+                >E-mail: <span class="required-field">*</span></label
+              >
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="block"
+                placeholder="E-mail"
+                required
+              />
+            </div>
+            <div class="box-input">
+              <label for="phone"
+                >Telefone: <span class="required-field">*</span></label
+              >
+              <input
+                type="tel"
+                name="phone"
+                id="phone"
+                class="block"
+                placeholder="Telefone"
+                minlength="8"
+                maxlength="16"
+                required
+              />
+            </div>
+            <div class="box-input">
+              <label for="cpf"
+                >CPF: <span class="required-field">*</span></label
+              >
+              <input
+                type="text"
+                name="cpf"
+                id="cpf"
+                class="block"
+                placeholder="CPF"
+                minlength="11"
+                maxlength="11"
+                required
+              />
+            </div>
+          <div class = "Endereço">
+            <h1 class="form-title">Endereço</h1>
+            <div class="box-input">
+              <label for="cep"
+                >CEP: <span class="required-field">*</span></label
+              >
+              <input
+                type="text"
+                name="cep"
+                id="cep"
+                class="block"
+                placeholder="CEP"
+                minlength="8"
+                maxlength="8"
+                required
+              />
+            </div>
+            <div class="box-input">
+              <label for="street"
+                >Rua: <span class="required-field">*</span></label
+              >
+              <input
+                type="text"
+                name="street"
+                id="street"
+                class="block"
+                placeholder="Rua"
+                minlength="1"
+                maxlength="30"
+                required
+              />
+            </div>
+            <div class="box-input">
+              <label for="number"
+                >Número: <span class="required-field">*</span></label
+              >
+              <input
+                type="text"
+                name="number"
+                id="number"
+                class="block"
+                placeholder="Número"
+                minlength="1"
+                maxlength="30"
+                required
+              />
+            </div>
+            <div class="box-input">
+              <label for="complement"
+                >Complemento: <span class="required-field">*</span></label
+              >
+              <input
+                type="text"
+                name="complement"
+                id="complement"
+                class="block"
+                placeholder="Complemento"
+                minlength="1"
+                maxlength="30"
+                required
+              />
+            </div>
+            <div class="box-input">
+              <label for="neighborhood"
+                >Bairro: <span class="required-field">*</span></label
+              >
+              <input
+                type="text"
+                name="neighborhood"
+                id="neighborhood"
+                class="block"
+                placeholder="Bairro"
+                minlength="1"
+                maxlength="30"
+                required
+              />
+
+            </div>
+            <div class="box-input">
+              <label for="city"
+                >Cidade: <span class="required-field">*</span></label
+              >
+              <input
+                type="text"
+                name="city"
+                id="city"
+                class="block"
+                placeholder="Cidade"
+                minlength="1"
+                maxlength="30"
+                required
+              />
+            </div>
+            <div class="box-input">
+              <label for="state"
+                >Estado: <span class="required-field">*</span></label
+              >
+              <input
+                type="text"
+                name="state"
+                id="state"
+                class="block"
+                placeholder="Estado"
+                minlength="1"
+                maxlength="30"
+                required
+              />
+            </div>
+          </div>
+          
+
+
+            <div class="box-input">
+              <p>Fotos de Perfil: <span class="required-field">*</span></p>
+              <input
+                type="file"
+                accept="image/png, image/jpg"
+                id="images"
+                name="images"
+                required
+              />
+            </div>
+            <input type="submit" value="Enviar" class="btn-submit" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

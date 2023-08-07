@@ -11,57 +11,65 @@ html {
   padding: 10px 50px;
 
 }
+
 /* header */
 .header {
-    text-align: center;
-  }
-
-.main-title {
-font-size: 30px;
+  text-align: center;
 }
 
-  
+.main-title {
+  font-size: 30px;
+}
+
+
 /* Imagem destaque */
 .featured-image {
-text-align: center;
-margin-top: 30px;
+  text-align: center;
+  margin-top: 30px;
 }
 
 /* Biografia */
 .biography-container {
-    padding: 25px 0;
-    margin: 25px 0;
-  }
+  padding: 25px 0;
+  margin: 25px 0;
+}
 
+.members-container {
+  padding: 25px 0;
+  margin: 25px 0;
+  position: sticky;
+  top: 0;
+  
+}
 /* Quotes */
 .quotes-container {
-background-color: #f7c8db;
-padding: 10px;
+  background-color: #f7c8db;
+  padding: 10px;
 }
 
 .quotes-container blockquote {
-font-weight: bold;
-font-size: 20px;
+  font-weight: bold;
+  font-size: 20px;
 }
-  
+
 .quotes-container p {
-font-style: italic;
+  font-style: italic;
 }
 
 .Nayeon-photo, .Jeongyeon-photo, .Momo-photo, .Sana-photo, .Jihyo-photo, .Mina-photo, .Dahyun-photo, .Chaeyoung-photo, .Tzuyu-photo {
- max-width: 50px;
- max-height: 50px;
- overflow: hidden;
-    position: relative;
-    float: left;
-    margin: 10px;
-    border-radius: 50%;
-    border: 5px solid #f7c8db;
-    background-color: #f7c8db;
-    padding: 15px;
+  max-width: 50px;
+  max-height: 50px;
+  overflow: hidden;
+  position: relative;
+  float: left;
+  margin: 10px;
+  border-radius: 50%;
+  border: 5px solid #f7c8db;
+  background-color: #f7c8db;
+  padding: 15px;
 }
 
 .Nayeon-photo img, .Jeongyeon-photo img, .Momo-photo img, .Sana-photo img, .Jihyo-photo img, .Mina-photo img, .Dahyun-photo img, .Chaeyoung-photo img, .Tzuyu-photo img {
-    max-width: 100%;
-    max-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
